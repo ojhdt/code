@@ -17,9 +17,20 @@ int main(void)
     else
     {
         printf("%d=", m);
-        while(i != m)
+        while(m != 1)
         {
-            i++
+            for(i = 2;;i++)
+            {
+                if(m % i == 0 )
+                {
+                    m = m / i;
+                    if(m!=1)
+                    printf("%d*", i);
+                    else
+                    printf("%d", i);
+                    break;
+                }
+            }
         }
     }
     
