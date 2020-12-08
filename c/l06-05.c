@@ -5,11 +5,11 @@ int strcmp(char a[], char b[]);
 int main(void)
 {
     char a[N], b[N];
-    printf("%d", strcmp(a, b));
+    printf("%d", sstrcmp(a, b));
     return 0;
 }
 
-int strcmp(char a[], char b[])
+int sstrcmp(char a[], char b[])
 {
     int i, anum = 0, bnum = 0;
     gets(a);

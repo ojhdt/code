@@ -7,6 +7,7 @@
 using namespace std;
 int main(void)
 {
+    cout << "出现意外手机坏了，随便签个到"
     //调试用注释
     #if 0
         cout << "Here are some code." << endl;

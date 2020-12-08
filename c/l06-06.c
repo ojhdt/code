@@ -1,18 +1,17 @@
 #include <stdio.h>
-int fun(int *a);
+int fun(char *a);
 int main(void)
 {
-    char num;
+    char num[101];
     scanf("%s", &num);
-    if(fun(&num) == 1) printf("YES");
-    if(fun(&num) == 0) printf("NO");
-
+    if(fun(num) == 1) printf("YES");
+    if(fun(num) == 0) printf("NO");
     return 0;
 }
 
-int fun(int *a)
+int fun(char *a)
 {
-    int *f = a;
+    char *f = a;
     int i = 0, j;
     int is_h = 1;
     while(*a != '\0')
@@ -20,8 +19,10 @@ int fun(int *a)
         a++;
         i++;
     }
-    printf("i=%d\n", i);
-    int *e = a;
+    a--;
+    // printf("i=%d\n", i);
+    char *e = a;
+    // printf("f=%c e=%c\n", *f, *e);
     for(j = 0; j < i - 1; j++)
     {
         if(*(f+j) != *(e-j))
