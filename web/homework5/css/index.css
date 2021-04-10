@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: #444;
+    justify-content: center;
+}
+
+li{
+    /* display: inline; */
+    list-style: none;
+    float: left;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    /* border: red solid 1px; */
+}

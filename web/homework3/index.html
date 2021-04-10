@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="heading">
+        <p>用户注册</p>
+    </div>
+    <form action="POST">
+        <div class="item">
+            <div class="title">
+                <p>用户名：</p>
+            </div>
+            <div class="content">
+                <input type="text" name="user" id="" placeholder="请输入用户名">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>邮箱地址：</p>
+            </div>
+            <div class="content">
+                <input type="text" name="email" id="" placeholder="请输入邮箱地址">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>设置密码：</p>
+            </div>
+            <div class="content">
+                <input size="20" type="password" name="pwd" id="">
+            </div>
+        </div>
+        <div class="item sub">
+            <p>6-20个字符，由字母，数字，符号的两种以上组合</p>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>确认密码：</p>
+            </div>
+            <div class="content">
+                <input size="20" type="rpassword" name="pwd" id="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>真实姓名：</p>
+            </div>
+            <div class="content">
+                <input type="text" name="name" id="" placeholder="请输入真实姓名">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>您的性别：</p>
+            </div>
+            <div class="content">
+                <input type="radio" name="male" id="">男&nbsp;<input type="radio" name="female" id="">女
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>上传头像</p>
+            </div>
+            <div class="content">
+                <input type="file" name="avatar" id="">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>您的手机：</p>
+            </div>
+            <div class="content">
+                <input type="text" name="phone" id="" placeholder="请输入您的手机号">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>单位名称：</p>
+            </div>
+            <div class="content">
+                <input type="text" name="oname" id="" placeholder="请输入单位名称">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>单位地址：</p>
+            </div>
+            <div class="content">
+                <select name="province">
+                    <option value="请选择省份" selected="selected">请选择省份</option>
+                </select>
+                <select name="city">
+                    <option value="请选择城市" selected="selected">请选择城市</option>
+                </select>
+                <select name="area">
+                    <option value="请选择区" selected="selected">请选择区</option>
+                </select>
+            </div>
+        </div>
+        <div class="item sub">
+            <div class="content">
+                <input type="text" name="street" id="" placeholder="请输入街道地址">
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">
+                <p>您的爱好：</p>
+            </div>
+            <div class="content">
+                <input type="checkbox" name="shop" id="">购物
+                <input type="checkbox" name="mov" id="">影视
+                <input type="checkbox" name="rest" id="">餐饮
+            </div>
+        </div>
+        <div class="textarea">
+            <div class="title">协议内容：</div>
+            <div class="content">
+                <textarea name="content" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="item sub">
+            <input type="submit" value="提交">
+        </div>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

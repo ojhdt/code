@@ -1,0 +1,28 @@
+.container{
+    background-image: url(../img/bgimage.png);
+    background-size: cover;
+    width: 1000px;
+    height: 300px;
+}
+
+.list{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    width: 180px;
+    height: 35px;
+    padding: 0 0 0 20px;
+    background-color: #669966;
+    color: #fbc64a;
+    margin: 0 0 1px 0;
+    line-height: 200%;
+    border-left: #fbc64a solid 15px;
+}
+

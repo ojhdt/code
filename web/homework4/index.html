@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <form action="#">
+        <div class="element">
+            <span>请输入你的邮箱地址：</span>
+            <input type="email" name="email" id="" placeholder="输入邮箱地址">
+        </div>
+        <div class="element">
+            <span>请输入一个网址：</span>
+            <input type="url" name="url" id="" placeholder="输入网址">
+        </div>
+        <div class="element">
+            <span>请输入数字：</span>
+            <input type="number" name="number" id="">
+        </div>
+        <div class="element">
+            <span>数字滑动条：</span>
+            <input type="range" name="range" id="" max="200" min="0" step="1">
+        </div>
+        <div class="element">
+            <span>请输入日期：</span>
+            <input type="date" name="date" id="">
+        </div>
+        <div class="element">
+            <span>请选择颜色：</span>
+            <input type="color" name="color" id="">
+        </div>
+        <div class="element">
+            <span>请选择招式：</span>
+            <input type="text" name="text" id="" list="mode">
+            <datalist id="mode">
+                <option value="亢龙有悔">亢龙有悔</option>
+                <option value="飞龙在天">飞龙在天</option>
+                <option value="见龙在田">见龙在田</option>
+                <option value="神龙摆尾">神龙摆尾</option>
+            </datalist>
+        </div>
+        <button type="submit">提交</button>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

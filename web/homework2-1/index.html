@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="locate">
+            <p><span style="font-weight: bold;">位置：</span>首页 <span style="color:#666;">></span> 购物后台管理 <span
+                    style="color:#666;">></span> 商品列表</p>
+        </div>
+        <div class="time">
+            <img src="images/leftico04.png" alt="">
+            <p>今天是2015年2月10日 星期一 12:00</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="edit">
+            <form action="" method="POST" name="edit">
+                <div><select name="category" id="category" size="1">
+                        <option value="商品类别" selected="selected"></option>
+                    </select>
+                    <input id="search_content" class="" value="" type="text" password="false" placeholder="请输入商品名称"
+                        placeholder-style="" placeholder-class="input-placeholder" disabled="false" maxlength="140"
+                        focus="false" bindinput="" bindfocus="" bindblur="" bindconfirm="">
+                    </input>
+                    <button id="search" type="submit">查询</button>
+                </div>
+                <div class="btns">
+                    <button>
+                        <img src="images/t01.png" alt="">
+                        <p>添加</p>
+                    </button>
+                    <button>
+                        <img src="images/t02.png" alt="">
+                        <p>修改</p>
+                    </button>
+                    <button>
+                        <img src="images/t03.png" alt="">
+                        <p>删除</p>
+                    </button>
+                    <button>
+                        <img src="images/t04.png" alt="">
+                        <p>统计</p>
+                    </button>
+                    <button>
+                        <img src="images/t05.png" alt="">
+                        <p>设置</p>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="table">
+            <table>
+                <tr class="r0">
+                    <td class="c1"><input type="checkbox" name="checbox" id="">
+                    </td>
+                    <td class="c2">缩略图</td>
+                    <td class="c3">商品名称</td>
+                    <td class="c4">商品类别</td>
+                    <td class="c5">数量（件）</td>
+                    <td class="c6">单位（元）</td>
+                    <td class="c7">发布时间</td>
+                    <td class="c8">是否审核</td>
+                    <td class="c9">操作</td>
+                </tr>
+                <tr>
+                    <td class="c1"><input type="checkbox" name="checbox" id=""></td>
+                    <td class="c2"><img src="images/img06.png" alt=""></td>
+                    <td class="c3">RAX 牛皮户外鞋</td>
+                    <td class="c4">运动</td>
+                    <td class="c5">334</td>
+                    <td class="c6">￥556.00</td>
+                    <td class="c7">2015-06-06 15:05</td>
+                    <td class="c8">已审核</td>
+                    <td class="c9">
+                        <a href="#">查看</a>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr class="r2">
+                    <td class="c1"><input type="checkbox" name="checbox" id=""></td>
+                    <td class="c2"><img src="images/img07.png" alt=""></td>
+                    <td class="c3">七匹狼休闲裤</td>
+                    <td class="c4">男装</td>
+                    <td class="c5">455</td>
+                    <td class="c6">￥236.00</td>
+                    <td class="c7">2015-06-08 14:02</td>
+                    <td class="c8">未审核</td>
+                    <td class="c9">
+                        <a href="#">查看</a>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr">
+                    <td class="c1"><input type="checkbox" name="checbox" id=""></td>
+                    <td class="c2"><img src="images/img08.png" alt=""></td>
+                    <td class="c3">欧美大牌显瘦睫毛蕾丝连衣裙</td>
+                    <td class="c4">女装</td>
+                    <td class="c5">899</td>
+                    <td class="c6">￥136.00</td>
+                    <td class="c7">2015-06-07 13:16</td>
+                    <td class="c8">未审核</td>
+                    <td class="c9">
+                        <a href="#">查看</a>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr class="r4">
+                    <td class="c1"><input type="checkbox" name="checbox" id=""></td>
+                    <td class="c2"><img src="images/img09.png" alt=""></td>
+                    <td class="c3">锐步2015新上线独家复古GL 运动生活休闲男鞋</td>
+                    <td class="c4">运动</td>
+                    <td class="c5">3456</td>
+                    <td class="c6">￥346.00</td>
+                    <td class="c7">2015-06-06 10:36</td>
+                    <td class="c8">已审核</td>
+                    <td class="c9"><a href="#">查看</a>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="checbox" id=""></td>
+                    <td><img src="images/img10.png" alt=""></td>
+                    <td>新款中大童荷叶边短袖裙子韩版儿童公主裙连衣裙</td>
+                    <td>童装</td>
+                    <td>678</td>
+                    <td>￥316.00</td>
+                    <td>2015-06-05 13:25</td>
+                    <td>已审核</td>
+                    <td><a href="#">查看</a>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="bottom">
+            <div class="page">
+                <p>共<span style="color: royalblue;">1256</span>条记录，当前显示第<span  style="color: royalblue;">2</span>页</p>
+            </div>
+            <div class="pages">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>……</td>
+                        <td>10</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
