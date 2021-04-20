@@ -12,7 +12,6 @@
         "memory": "cpp",
         "thread": "cpp",
         "valarray": "cpp",
-        "cmath": "cpp",
-        "new": "cpp"
+        "cmath": "cpp"
     }
 }
