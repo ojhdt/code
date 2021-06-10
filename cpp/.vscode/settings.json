@@ -13,6 +13,9 @@
         "thread": "cpp",
         "valarray": "cpp",
         "cmath": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "ostream": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp"
     }
 }

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+</head>
+
+<body>
+</body>
+<script>
+    var text = decodeURIComponent(window.location.search)
+    console.log(text)
+    var num = /num=(.*?)(&|$)/g.exec(text)[1]
+    var name = /name=(.*?)(&|$)/g.exec(text)[1]
+    var sex = /sex=(.*?)(&|$)/g.exec(text)[1]
+    var file = /file=(.*?)(&|$)/g.exec(text)[1]
+    document.write(`id:${num}\nname:${name}\nsex:${sex}\nfile:${file}`)
+</script>
+</html>

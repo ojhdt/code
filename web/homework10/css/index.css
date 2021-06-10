@@ -1,0 +1,19 @@
+.scale{
+    margin-bottom: 200px;
+}
+
+.imgs{
+    overflow: hidden;
+    width: 215px;
+    height: 125px;
+    position: relative;
+}
+
+.img_container{
+    top: 0;
+    position: absolute;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    transition: left .5s ease-in-out;
+}
