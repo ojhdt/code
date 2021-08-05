@@ -1,0 +1,41 @@
+.main{
+    width: 400px;
+}
+.main video{
+    width: 100%;
+}
+
+.control{
+    border-radius: 5px;
+    height: 40px;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bar{
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.content{
+    height: 10px;
+    border-radius: 5px;
+    background: #666;
+}
+
+.volume{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.volume_bar{
+    width: 100px;
+    height: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
