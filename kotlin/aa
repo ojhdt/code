@@ -1,0 +1,17 @@
+btn.setOnClickListener(object:View.OnClickListener{
+        override fun onClick(v:View?){
+                println("Hello World")
+            }
+        })
+
+        btn.setOnClickListener(View.OnClickListener {
+            println("Hello World")
+        })
+
+        btn.setOnClickListener(){
+            println("Hello World")
+        }
+
+        btn.setOnClickListener{
+            println("Hello World")
+        }
